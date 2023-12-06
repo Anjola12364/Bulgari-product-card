@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #E4E8FF;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.frame {
+    width: 400px;
+    height: 530px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.img img {
+    max-width: 100%;
+    display: inherit;
+}
+
+.Content {
+    padding: 18px 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1.header {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1E1E1E;
+    margin-bottom: 12px;
+}
+
+p.descp {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4B4B4B;
+    margin-bottom: 12px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+p.Current-price {
+    font-size: 20px;
+    font-weight: 700;
+    color: #9747FF;
+    padding-right: 48px;
+}
+
+p.Old-price {
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #262626;
+}
+
+button.CTA {
+    background-color: #9747FF;
+    border: none;
+    padding: 14px 0;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+}
